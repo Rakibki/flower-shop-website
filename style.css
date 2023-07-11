@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.section-title{
+    text-align: center;
+    margin: 15px 0;
+}
+
+.section-description {
+    color: #969696;
+    font-size: 15px;
+    text-align: center;
+}
+
+.primary-button {
+    padding: 9px 15px;
+    outline: none;
+    color: #fff;
+    background-color: #e55473;
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+
+/* <--banner related style start--> */
+header {
+    width: 100%;
+    height: 100vh;
+    background-color: #fceef1;
+}
+
+.banner-container {
+    display: flex;
+}
+
+.banner-text{
+    padding: 120px;
+    width: 60%;
+}
+
+.banner-image  {
+    width: 40%;
+    overflow: hidden;
+}
+
+.banner-image img {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.banner-text h1 {
+    color: #272727;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+.banner-text p {
+    color: #8c8687;
+    padding: 20px 0;
+}
+/* <--banner related style end--> */
+
+
+/* <--featured-flowers related style start--> */
+
+.categories-container  {
+    background-color: #a8dbed;
+    padding-bottom: 80px;
+}
+.categories-container .categories {
+    display: flex;
+    gap: 1rem;
+}
+
+.categories-container .category-item img {
+    border-radius: 50%;
+    border: 3px solid #989696;
+    display: inline-block;
+    transition: 0.6s;
+    box-sizing: border-box;
+}
+
+
+.categories-container .category-item:hover img {
+    border: 3px solid #e55473;
+}
+
+.categories-container .category-item:hover p {
+    text-decoration: underline;
+    color: #e55473;
+}
+
+
+.categories-container .category-item {
+    width: 25%;
+}
+
+.categories-container .category-item p {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    transition: .5s;
+    margin-top: 17px;
+}
+
+.categories-container .category-title {
+    padding-top: 80px;
+    margin-bottom: 30px;
+
+}
+
+/* <--featured-flowers related style start--> */
+
+
+
+/* <--featured-flowers related style start--> */
+
+.featured-flowers {
+    padding: 120px 0;
+}
+
+.featured-flowers .flowers {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 50px;
+}
+
+
+.featured-flowers .flower img {
+    width: 200px;
+}
+
+.featured-flowers .item-1 img {
+    margin-top: 54px;
+    margin-left: 50px;
+}
+
+.featured-flowers .item-2 img {
+    margin-top: 84px;
+    margin-left: 50px;
+}
+
+
+.featured-flowers .item-3 img {
+    margin-top: 33px;
+    margin-left: 56px;
+}
+
+.featured-flowers .item-1 p {
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: red;
+    margin-top: 100px;
+}
+
+
+.flower-text {
+    text-align: center;
+    font-size: 17px;
+    text-decoration: underline;
+    margin-top: 6px;
+}
+
+
+
+.featured-flowers .item-1 {
+    background-color: #f2dee7;
+    border-radius: 50% 50% 0 0;
+}
+
+.featured-flowers .item-2 {
+    background-color: #d9eff1;
+    border-radius: 50% 50% 0 0;
+    padding-bottom: 48px;
+}
+
+.featured-flowers .item-3 {
+    background-color: #e3ebdb;
+    border-radius: 50% 50% 0 0;
+} 
+
+.featured-flowers .flower{
+    width: 33%;
+    height: 400px;
+}
+
+
+/* <--featured-flowers related style end--> */
+
+
+
+/* <--service related style start--> */
+.service-container{
+    display: flex;
+    padding: 50px;
+    background-color: #f4f4f4;
+    margin-top: 120px;
+}
+
+.service-container .service{
+    width: 33%;
+    text-align: center;
+}
+
+.service-container .service p {
+    color: #505050;
+    padding: 10px 0;
+}
+/* <--service related style end--> */
+
+
+
+
+/* <--discount related style start--> */
+.discount-section {
+    background-color: #fef6f8;
+    width: 100%;
+    height: 400px;
+}
+.discount-container{
+    display: flex;
+}
+.discount-text{
+    width: 60%;
+    padding: 90px;
+}
+
+.discount-text h1 {
+    padding: 10px 0;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.discount-text p {
+    font-size: 15px;
+    color: #505050;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.discount-image img {
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+#discount-off{
+    color: #e55473;
+}
+
+.discount-text #sing-up-btn {
+    margin-left: 190px;
+    margin-top: 17px;
+}
+/* <--discount related style end--> */
+
+/* <--gallery related style start--> */
+.image-gallery-section {
+    padding: 70px 0 20px 0;
+}
+
+.image-container {
+    display: flex;
+    gap: 1rem;
+    overflow: hidden;
+}
+
+.image-container .image img {
+    width: 100%;
+}
+
+.image-container .image {
+    width: 24%;
+    overflow: hidden;
+    height: 350px;
+}
+
+.image-desc{
+    padding: 20px 0;
+    margin-bottom: 10px;
+}
+/* <--gallery related style end--> */
+
+
+/* <--form-section related style end--> */
+.form-section{
+    width: 80%;
+    height: 250px;
+    margin: auto;
+    background-image: url('Flower Asset/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    background-size: 100% 250px;
+
+}
+
+.form-section img {
+    width: 100%;
+}
+
+.form-title{
+    padding-top: 60px;
+}
+
+.form-input-div {
+    width: 60%;
+    margin: auto;
+    margin-left: 260px;
+}
+
+.form-input-div input {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    color: #8c8687;
+}
+
+.form-desc{
+    padding: 0 0 30px 0;
+}
+/* <--form-section related style end--> */
+
+
+
+/* <--footer related style end--> */
+.footer-container{
+    width: 100%;
+    background-color: black;
+    padding: 50px 0;
+}
+
+.footer-container h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.footer-container p {
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.footer-container .copyRight {
+    color: #7a7272;
+    text-align: center;
+    display: block;
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+.footer-container .shop {
+    color: #e55473;
+}
+/* <--footer related style end--> */
+
+
